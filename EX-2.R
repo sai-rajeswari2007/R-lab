@@ -1,7 +1,7 @@
 2
 \\1.
-age <- 25
-income <- 35000
+age <- 54
+income <- 35880
 if(age > 21 & income > 30000){
 print("Eligible for Loan")
 } else {
@@ -9,24 +9,24 @@ print("Not Eligible for Loan")
 }
 
 \\2.
-attendance <- 78
-if(attendance >= 75){
+attendance <- 55
+if(attendance >= 55){
 print("Eligible for Exam")
 } else {
 print("Not Eligible for Exam")
 }
 
 \\3.
-amount <- 4200
+amount <- 4207
 premium_member <- TRUE
-if(amount > 5000 | premium_member){
+if(amount > 5976 | premium_member){
 print("Discount Applied")
 } else {
 print("No Discount")
 }
 
 \\4.
-units <- 250
+units <- 350
 if(units < 100){
 print("Low Usage")
 } else if(units <= 300){
@@ -37,7 +37,7 @@ print("High Usage")
 
 \\5.
 experience <- 6
-rating <- 4.5
+rating <- 4.6
 if(experience > 5 & rating > 4){
 print("Bonus Eligible")
 } else {
@@ -61,12 +61,12 @@ print("Normal Temperature")
 }
 
 \\8.
-marks <- 82
-if(marks >= 90){
+marks <- 96
+if(marks >= 88){
 grade <- "A"
-} else if(marks >= 75){
+} else if(marks >= 73){
 grade <- "B"
-} else if(marks >= 50){
+} else if(marks >= 48){
 grade <- "C"
 } else {
 grade <- "Fail"
@@ -74,9 +74,9 @@ grade <- "Fail"
 print(grade)
 
 \\9.
-age <- 35
-income <- 40000
-credit_score <- 720
+age <- 55
+income <- 4500
+credit_score <- 790
 if(age >= 21 & age <= 60 & income >= 25000 & credit_score >= 700){
 print("Credit Card Approved")
 } else {
@@ -106,8 +106,8 @@ print("Short Green Signal")
 }
 
 \\12.
-attendance <- 92
-performance <- 8.5
+attendance <- 99
+performance <- 86.5
 project_completed <- TRUE
 if(attendance >= 90 & performance >= 8 & project_completed){
 print("Eligible for Appraisal")
@@ -127,7 +127,7 @@ print("Exam Allowed")
 
 \\14.
 high_demand <- TRUE
-available_drivers <- 30
+available_drivers <- 88
 if(high_demand & available_drivers < 50){
 print("Surge Pricing Applied")
 } else {
@@ -136,8 +136,8 @@ print("Normal Pricing")
 
 \\15.
 Answer:
-temperature <- 75
-pressure <- 130
+temperature <- 55
+pressure <- 164
 vibration <- 6
 if(temperature > 80 | pressure > 120 | vibration > 7){
 print("Machine Shutdown")
