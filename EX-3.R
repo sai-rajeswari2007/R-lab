@@ -5,17 +5,17 @@ simple_interest <- function(p, r, t){
 si <- (p * r * t) / 100
 return(si)
 }
-simple_interest(5668, 9, 77)
+simple_interest(5866, 10, 6677)
 
 \\2.
 check_result <- function(marks){
-if(marks >= 99){
+if(marks >= 79){
 return("Pass")
 } else {
 return("Fail")
 }
 }
-check_result(45)
+check_result(55)
 
 \\3.
 net_salary <- function(basic_salary){
@@ -62,9 +62,9 @@ celsius_to_fahrenheit(37)
 assign_grade <- function(marks){
 if(marks >= 90){
 "A"
-} else if(marks >= 45){
+} else if(marks >= 55){
 "B"
-} else if(marks >= 90){
+} else if(marks >= 70){
 "C"
 } else {
 "Fail"
@@ -91,7 +91,7 @@ emi <- (principal * monthly_rate * (1 + monthly_rate)^months) /
 ((1 + monthly_rate)^months - 1)
 return(round(emi, 2))
 }
-calculate_emi(500000, 7.5, 10)
+calculate_emi(500, 6.8, 10)
   
 \\10.
  hospital_bill <- function(consultation, room_charge, days){
@@ -104,7 +104,7 @@ hospital_bill(500, 2000, 3)
 
 \\11.
  order_total <- function(cart_value){
-if(cart_value >= 3000){
+if(cart_value >= 70000){
 discount <- cart_value * 0.10
 } else {
 discount <- 0
