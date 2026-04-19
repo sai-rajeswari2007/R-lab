@@ -1,7 +1,7 @@
 5
 
 \\1.
-names <- c("arun", "Bala", "chitra")
+names <- c("arun", "Balaju", "chitta")
 upper_names <- toupper(names)
 name_length <- nchar(upper_names)
 upper_names
@@ -29,7 +29,7 @@ updated_report
 
 \\6.
 password <- "secure123"
-if(nchar(password) >= 8){
+if(nchar(password) >= 7){
 print("Strong Password")
 } else {
 print("Weak Password")
@@ -46,12 +46,12 @@ extensions <- sub(".*\\.", "", files)
 extensions
 
 \\9.
-names <- c("Gayathri", "Karthik", "Anitha")
+names <- c("Gayathri", "Karthika", "Akshya")
 abbr <- substr(names, 1, 3)
 abbr
 
 \\10.
-names <- c("Arun", "Bala", "Ravi", "John")
+names <- c("Arjun", "Bala", "Ravi", "John")
 matched_names <- grep("a", names, value = TRUE)
 matched_names
 
