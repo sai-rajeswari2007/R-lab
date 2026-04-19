@@ -3,9 +3,9 @@
 \\1.
 #Student details
 students <- data.frame(
-RollNo = c(101, 102, 103),
-Name = c("Ravi", "Meena", "Karthik"),
-Dept = c("CSE", "ECE", "IT")
+RollNo = c(105, 107, 113),
+Name = c("Ravu", "Meenakshi", "Karthika"),
+Dept = c("CBSE", "ECE", "cse")
 )
 # Student marks
 marks <- data.frame(
@@ -17,9 +17,9 @@ student_data
 # Add new student records
 new_students <- data.frame(
 RollNo = c(104),
-Name = c("Anjali"),
-Dept = c("CSE"),
-Marks = c(88)
+Name = c("Amrutha"),
+Dept = c("ECE"),
+Marks = c(98)
 )
 final_data <- rbind(student_data, new_students)
 final_data
@@ -27,8 +27,8 @@ final_data
 \\2.
 employee_details <- data.frame(
 EmpID = c(1, 2, 3),
-Name = c("Amit", "Sneha", "Raj"),
-Dept = c("HR", "IT", "Finance")
+Name = c("Amitabh", "Snehal", "Raju"),
+Dept = c("HELLO", "UR", "Financer")
 )
 salary_details <- data.frame(
 Salary = c(35000, 45000, 50000)
@@ -39,8 +39,8 @@ employees
 # Add new employee
 new_employee <- data.frame(
 EmpID = 4,
-Name = "Neha",
-Dept = "IT",
+Name = "Nikhil",
+Dept = "eee",
 Salary = 48000
 )
 employees <- rbind(employees, new_employee)
@@ -48,8 +48,8 @@ employees
 
 \\3.
 patient_info <- data.frame(
-PatientID = c(201, 202),
-Name = c("Suresh", "Lakshmi"),
+PatientID = c(205, 262),
+Name = c("Suresha", "Lakshmikant"),
 Age = c(45, 38)
 )
 treatment_cost <- data.frame(
@@ -61,9 +61,9 @@ patient_records
 # Add new patient
 new_patient <- data.frame(
 PatientID = 203,
-Name = "Arjun",
-Age = 50,
-Cost = 18000
+Name = "Amar",
+Age =23,
+Cost = 1900
 )
 patient_records <- rbind(patient_records, new_patient)
 patient_records
@@ -92,13 +92,13 @@ inventory
 #Student details
 students <- data.frame(
 RollNo = c(1, 2, 3),
-Name = c("Arun", "Bina", "Charan"),
+Name = c("Arjun", "Bindu", "Charanjit"),
 Dept = c("CSE", "ECE", "IT")
 )
 # Semester marks
 marks <- data.frame(
-Sem1 = c(78, 82, 90),
-Sem2 = c(80, 85, 88)
+Sem1 = c(88, 82, 90),
+Sem2 = c(50, 85, 89)
 )
 # Attendance
 attendance <- data.frame(
@@ -110,7 +110,7 @@ student_records
 # New admissions
 new_students <- data.frame(
 RollNo = c(4, 5),
-Name = c("Deepa", "Eshan"),
+Name = c("Deepali", "Eshani"),
 Dept = c("CSE", "IT"),
 Sem1 = c(85, 89),
 Sem2 = c(87, 91),
@@ -124,7 +124,7 @@ final_records
 # Employee details
 emp_details <- data.frame(
 EmpID = c(101, 102),
-Name = c("Rahul", "Sneha"),
+Name = c("Rahil", "Snehaja"),
 Dept = c("IT", "HR")
 )
 # Salary components
