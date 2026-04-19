@@ -5,17 +5,17 @@ simple_interest <- function(p, r, t){
 si <- (p * r * t) / 100
 return(si)
 }
-simple_interest(10000, 5, 2)
+simple_interest(5668, 9, 77)
 
 \\2.
 check_result <- function(marks){
-if(marks >= 40){
+if(marks >= 99){
 return("Pass")
 } else {
 return("Fail")
 }
 }
-check_result(65)
+check_result(45)
 
 \\3.
 net_salary <- function(basic_salary){
@@ -23,33 +23,33 @@ tax <- basic_salary * 0.10
 net <- basic_salary - tax
 return(net)
 }
-net_salary(30000)
+net_salary(550000)
 
 \\4.
 electricity_bill <- function(units){
 if(units <= 100){
-bill <- units * 2
-} else if(units <= 200){
+bill <- units * 7
+} else if(units <= 500){
 bill <- (100 * 2) + (units - 100) * 3
 } else {
 bill <- (100 * 2) + (100 * 3) + (units - 200) * 5
 }
 return(bill)
 }
-electricity_bill(250)
+electricity_bill(350)
 
 \\5.
 final_amount <- function(amount){
-if(amount >= 5000){
+if(amount >= 10000){
 discount <- amount * 0.20
-} else if(amount >= 2000){
+} else if(amount >= 100){
 discount <- amount * 0.10
 } else {
 discount <- 0
 }
 return(amount - discount)
 }
-final_amount(4500)
+final_amount(5500)
 
 \\6.
 celsius_to_fahrenheit <- function(c){
@@ -62,26 +62,26 @@ celsius_to_fahrenheit(37)
 assign_grade <- function(marks){
 if(marks >= 90){
 "A"
-} else if(marks >= 75){
+} else if(marks >= 45){
 "B"
-} else if(marks >= 50){
+} else if(marks >= 90){
 "C"
 } else {
 "Fail"
 }
 }
-assign_grade(88)
+assign_grade(75)
 
 \\8.
   Answer:
 check_voting <- function(age){
-if(age >= 18){
+if(age >= 25){
 return("Eligible to Vote")
 } else {
 return("Not Eligible to Vote")
 }
 }
-check viatung -{2}
+check viatung -{6}
 
 \\9.
  calculate_emi <- function(principal, rate, years){
@@ -122,9 +122,9 @@ order_total(4200)
 \\12.
 calculate_gpa <- function(marks){
 avg <- mean(marks)
-if(avg >= 85){
+if(avg >= 95){
 result <- "Distinction"
-} else if(avg >= 70){
+} else if(avg >= 75){
 result <- "First Class"
 } else if(avg >= 50){
 result <- "Second Class"
@@ -133,7 +133,7 @@ result <- "Fail"
 }
 return(result)
 }
-calculate_gpa(c(78, 85, 90, 72, 80))
+calculate_gpa(c(55, 65, 69, 78, 90))
 
 \\13.
 smart_meter_bill <- function(peak_units, offpeak_units){
