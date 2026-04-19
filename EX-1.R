@@ -1,27 +1,27 @@
 \\1:
 roll_no <- 101
-name <- "Anitha"
-cgpa <- 8.45 
-pass <- TRUE
+name <- "rajeswari"
+cgpa <- 9.45 
+pass <- false 
 roll_no
 name
 cgpa
 pass
 
 \\2:
-emp_id <- 5001
+emp_id <- 33001
 salary <- 45000.75
-department <- "IT"
-is_permanent <- TRUE
+department <- "cse"
+is_permanent <- false
 emp_id
 salary
 department
 is_permanent
 
 \\3:
-product_name <- "Laptop"
-price <- 55000
-stock_available <- 25
+product_name <- "headset"
+price <- 56000
+stock_available <- 58
 discount_eligible <- FALSE
 product_name
 price
@@ -29,18 +29,18 @@ stock_available
 discount_eligible
 
 \\4:
-city <- "Chennai"
-temperature <- 36.5
+city <- "lucknow"
+temperature <- 39.5
 rain <- FALSE
-wind_speed <- 12.8
+wind_speed <- 78.8
 city
 temperature
 rain
 wind_speed
 
 \\5:
-total_marks <- 100
-marks_obtained <- 78
+total_marks <- 390
+marks_obtained <- 99
 result <- marks_obtained >= 40
 subject
 total_marks
@@ -49,8 +49,8 @@ result
 
 \\6:
 Answer:
-account_no <- 123456789
-holder_name <- "Ravi Kumar"
+account_no <- 987654321
+holder_name <- " Kumar"
 balance <- 25000.50
 account_active <- TRUE
 account_no
@@ -60,9 +60,9 @@ account_active
 
 \\7:
 Answer:
-movie_title <- "Inception"
-rating <- 8.8
-reviews <- 1200
+movie_title <- "expection"
+rating <- 9.8
+reviews <- 1289
 available <- TRUE
 movie_title
 rating
@@ -70,9 +70,9 @@ reviews
 available
 
 \\8:
-vehicle_count <- 350
+vehicle_count <- 389
 location <- "Highway Road"
-avg_speed <- 45.6
+avg_speed <- 49.6
 congested <- TRUE
 vehicle_count
 location
